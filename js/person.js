@@ -1,5 +1,3 @@
-"use strict";
-
 const personDataLog = ({
   firstname = "John",
   lastname = "Doe",
@@ -7,5 +5,3 @@ const personDataLog = ({
 } = {}) => {
   return `My name is ${firstname} ${lastname}. I'm ${age} years old.`;
 };
-
-let;
